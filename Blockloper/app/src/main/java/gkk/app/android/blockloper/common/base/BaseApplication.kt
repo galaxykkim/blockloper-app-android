@@ -1,9 +1,9 @@
-package gkk.app.android.blockloper
+package gkk.app.android.blockloper.common.base
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class BlockloperApplication: Application() {
+class BaseApplication: Application() {
 
 }

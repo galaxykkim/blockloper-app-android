@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Common-->
+    <dimen name="common_actionbar_height">60dp</dimen>
+    <dimen name="common_actionbar_margin_start_end">20dp</dimen>
+    <dimen name="common_actionbar_title_size">20sp</dimen>
+</resources>
