@@ -6,9 +6,10 @@
 
     <!--SetNetworkFragment-->
     <string name="title_set_network">네트워크 설정</string>
-    <string name="desc_set_network">이 앱을 사용하시려면 블록체인 노드 주소를 입력해야 합니다.</string>
-    <string name="label_set_network_mainnet">메인넷 주소</string>
-    <string name="label_set_network_testnet">테스트넷 주소</string>
+    <string name="desc_set_network">연동에 필요한 네트워크 정보를 입력해주세요.</string>
+    <string name="label_set_network_rpc_url">RPC URL</string>
+    <string name="label_set_network_chain_id">Chain ID</string>
+    <string name="label_set_network_scope_url">Scope URL (선택)</string>
     <string name="label_set_network_confirm">확인</string>
 
 

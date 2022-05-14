@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--폰트-->
+    <style name="font_default">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--NotoSerif-->
+    <style name="font_noto_serif_bold" parent="font_default">
+        <item name="android:fontFamily">@font/noto_serif_bold</item>
+    </style>
+    <style name="font_noto_serif_regular" parent="font_default">
+        <item name="android:fontFamily">@font/noto_serif_regular</item>
+    </style>
+    <style name="font_noto_serif_light" parent="font_default">
+        <item name="android:fontFamily">@font/noto_serif_light</item>
+    </style>
+
+    <!--NotoSans-->
+    <style name="font_noto_sans_bold" parent="font_default">
+        <item name="android:fontFamily">@font/noto_sans_bold</item>
+    </style>
+    <style name="font_noto_sans_regular" parent="font_default">
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+    </style>
+    <style name="font_noto_sans_light" parent="font_default">
+        <item name="android:fontFamily">@font/noto_sans_light</item>
+    </style>
+
+
+    <!--Common-->
+    <style name="text_actionbar_title" parent="noto_sans_bold_20">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="btn_common_bottom" parent="noto_sans_bold_18">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/bg_btn_common_bottom</item>
+    </style>
+
+
+
+</resources>

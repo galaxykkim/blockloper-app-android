@@ -2,54 +2,61 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="onClickConfirm"
+            type="android.view.View.OnClickListener" />
+    </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="20dp">
 
-        <TextView
-            android:id="@+id/textTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/title_set_network"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_marginTop="30dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
-
-        <TextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/textDesc"
+            style="@style/noto_serif_light_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/desc_set_network"
-            android:layout_marginTop="10dp"
-            app:layout_constraintTop_toBottomOf="@id/textTitle"
-            app:layout_constraintStart_toStartOf="@id/textTitle"
-            app:layout_constraintEnd_toEndOf="@id/textTitle"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
 
-        <EditText
-            android:id="@+id/editMainnetUrl"
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editRpcUrl"
+            style="@style/noto_sans_regular_16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/label_set_network_mainnet"
-            android:layout_marginTop="20dp"
+            android:hint="@string/label_set_network_rpc_url"
+            android:layout_marginTop="10dp"
             app:layout_constraintTop_toBottomOf="@id/textDesc"/>
 
-        <EditText
-            android:id="@+id/editTestnetUrl"
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editChainId"
+            style="@style/noto_sans_regular_16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/label_set_network_testnet"
+            android:hint="@string/label_set_network_chain_id"
             android:layout_marginTop="10dp"
-            app:layout_constraintTop_toBottomOf="@id/editMainnetUrl"/>
+            app:layout_constraintTop_toBottomOf="@id/editRpcUrl"/>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editScopeUrl"
+            style="@style/noto_sans_regular_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/label_set_network_scope_url"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/editChainId"/>
+
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnConfirm"
+            style="@style/btn_common_bottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/label_set_network_confirm"
+            onSafeClick="@{onClickConfirm}"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

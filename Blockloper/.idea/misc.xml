@@ -3,11 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.214" />
+        <entry key="app/src/main/res/drawable/btn_back_actionbar.xml" value="0.214" />
+        <entry key="app/src/main/res/drawable/btn_common_bottom.xml" value="0.214" />
+        <entry key="app/src/main/res/drawable/btn_settings.xml" value="0.214" />
+        <entry key="app/src/main/res/drawable/ic_back_actionbar.xml" value="0.214" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.214" />
+        <entry key="app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.214" />
         <entry key="app/src/main/res/layout/actionbar_home.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/actionbar_settings.xml" value="0.31979166666666664" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.2546875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/fragment_block_counter.xml" value="0.2546875" />
-        <entry key="app/src/main/res/layout/fragment_set_network.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/fragment_set_network.xml" value="0.31979166666666664" />
       </map>
     </option>
   </component>
