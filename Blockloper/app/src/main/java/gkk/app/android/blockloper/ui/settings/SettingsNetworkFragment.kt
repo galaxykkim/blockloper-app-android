@@ -7,18 +7,18 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import gkk.app.android.blockloper.R
 import gkk.app.android.blockloper.common.base.BaseFragment
-import gkk.app.android.blockloper.databinding.FragmentSetNetworkBinding
+import gkk.app.android.blockloper.databinding.FragmentSettingsNetworkBinding
 
-class SetNetworkFragment: BaseFragment() {
+class SettingsNetworkFragment: BaseFragment() {
 
-    private lateinit var binding: FragmentSetNetworkBinding
+    private lateinit var binding: FragmentSettingsNetworkBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_set_network, container, false)
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_settings_network, container, false)
         return binding.root
     }
 }

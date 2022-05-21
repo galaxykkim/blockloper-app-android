@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/common_actionbar_height"
         android:background="@color/common_bg_actionbar">
+
         <androidx.appcompat.widget.AppCompatTextView
             style="@style/text_actionbar_title"
             android:layout_width="wrap_content"

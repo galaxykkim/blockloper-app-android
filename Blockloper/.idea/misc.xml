@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Git_galaxykkim/blockloper-app-android/Blockloper/app/src/main/res/layout/actionbar_home.xml" value="0.3582427536231884" />
+        <entry key="..\:/Git_galaxykkim/blockloper-app-android/Blockloper/app/src/main/res/layout/actionbar_settings.xml" value="0.5541666666666667" />
+        <entry key="..\:/Git_galaxykkim/blockloper-app-android/Blockloper/app/src/main/res/layout/activity_home.xml" value="0.3582427536231884" />
+        <entry key="..\:/Git_galaxykkim/blockloper-app-android/Blockloper/app/src/main/res/layout/fragment_block_counter.xml" value="0.3582427536231884" />
+        <entry key="..\:/Git_galaxykkim/blockloper-app-android/Blockloper/app/src/main/res/layout/fragment_set_network.xml" value="0.3582427536231884" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.214" />
         <entry key="app/src/main/res/drawable/btn_back_actionbar.xml" value="0.214" />
         <entry key="app/src/main/res/drawable/btn_common_bottom.xml" value="0.214" />

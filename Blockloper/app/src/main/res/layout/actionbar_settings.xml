@@ -8,7 +8,7 @@
         android:layout_height="@dimen/common_actionbar_height"
         android:background="@color/common_bg_actionbar">
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/btnBack"
             android:layout_width="@dimen/common_actionbar_button_width_height"
             android:layout_height="@dimen/common_actionbar_button_width_height"

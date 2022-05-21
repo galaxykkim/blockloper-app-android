@@ -4,13 +4,13 @@
     <!--Common-->
 
 
-    <!--SetNetworkFragment-->
-    <string name="title_set_network">네트워크 설정</string>
-    <string name="desc_set_network">연동에 필요한 네트워크 정보를 입력해주세요.</string>
-    <string name="label_set_network_rpc_url">RPC URL</string>
-    <string name="label_set_network_chain_id">Chain ID</string>
-    <string name="label_set_network_scope_url">Scope URL (선택)</string>
-    <string name="label_set_network_confirm">확인</string>
+    <!--SettingsNetworkFragment-->
+    <string name="settings_network_title">네트워크 설정</string>
+    <string name="settings_network_desc">연동에 필요한 네트워크 정보를 입력해주세요.</string>
+    <string name="settings_network_label_rpc_url">RPC URL</string>
+    <string name="settings_network_label_chain_id">Chain ID</string>
+    <string name="settings_network_label_scope_url">Scope URL (선택)</string>
+    <string name="settings_network_label_confirm">확인</string>
 
 
 </resources>
