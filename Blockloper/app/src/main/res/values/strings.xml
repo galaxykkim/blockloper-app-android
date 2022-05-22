@@ -12,5 +12,10 @@
     <string name="settings_network_label_scope_url">Scope URL (선택)</string>
     <string name="settings_network_label_confirm">확인</string>
 
+    <!--BlockCounterFragment-->
+    <string name="block_counter_label_goal_block">목표 블록번호</string>
+    <string name="block_counter_label_current_block">현재 블록번호</string>
+    <string name="block_counter_label_prediction_time">블록 예상시간</string>
+    <string name="block_counter_label_current_time">현재시간</string>
 
 </resources>

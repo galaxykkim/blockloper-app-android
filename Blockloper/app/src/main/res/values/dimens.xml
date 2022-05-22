@@ -5,6 +5,11 @@
     <dimen name="common_actionbar_padding_start_end">10dp</dimen>
     <dimen name="common_actionbar_button_width_height">50dp</dimen>
 
+    <dimen name="common_fragment_padding">20dp</dimen>
+
+
+    <!--BlockCounterFragment-->
+    <dimen name="block_counter_row_height">50dp</dimen>
 
 
 </resources>
