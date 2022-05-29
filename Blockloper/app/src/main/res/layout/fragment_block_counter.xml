@@ -77,6 +77,7 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/textBlockPredictionTime"
                 style="@style/noto_sans_regular_20"
+                android:textColor="@color/main_color"
                 android:layout_width="0dp"
                 android:layout_weight="2"
                 android:layout_height="wrap_content"

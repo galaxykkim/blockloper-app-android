@@ -49,9 +49,9 @@ dependencies {
     /** Hilt (https://dagger.dev/hilt/gradle-setup) */
     implementation "com.google.dagger:hilt-android:$hilt_version"
     kapt "com.google.dagger:hilt-compiler:$hilt_version"
-
-    /** Web3j (https://github.com/web3j/web3j) */
-    implementation ('org.web3j:core:4.8.7-android')
+    
+    /** KAS (https://ko.docs.klaytn.foundation/dapp/sdk/caver-java) */
+    implementation 'com.klaytn.caver:core:1.8.0-android'
 
 
 
